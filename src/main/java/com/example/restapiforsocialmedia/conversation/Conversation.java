@@ -2,7 +2,7 @@ package com.example.restapiforsocialmedia.conversation;
 
 import com.example.restapiforsocialmedia.message.Message;
 import com.example.restapiforsocialmedia.user.UserData;
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.Data;
 
 import java.time.LocalDateTime;

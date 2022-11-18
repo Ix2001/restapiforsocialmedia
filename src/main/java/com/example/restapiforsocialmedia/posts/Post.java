@@ -3,8 +3,9 @@ package com.example.restapiforsocialmedia.posts;
 import com.example.restapiforsocialmedia.comments.Comments;
 import com.example.restapiforsocialmedia.content.MediaContent;
 import com.example.restapiforsocialmedia.user.UserData;
-import jakarta.persistence.*;
-import jakarta.validation.constraints.Size;
+import javax.persistence.*;
+import javax.validation.constraints.Size;
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;

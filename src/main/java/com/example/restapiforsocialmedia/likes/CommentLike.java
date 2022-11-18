@@ -2,7 +2,7 @@ package com.example.restapiforsocialmedia.likes;
 
 import com.example.restapiforsocialmedia.comments.Comments;
 import com.example.restapiforsocialmedia.user.UserData;
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
 
 @Setter

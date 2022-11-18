@@ -1,6 +1,6 @@
 package com.example.restapiforsocialmedia.content;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
 
 import java.time.LocalDateTime;

@@ -4,10 +4,10 @@ import com.example.restapiforsocialmedia.content.MediaContent;
 import com.example.restapiforsocialmedia.conversation.Conversation;
 import com.example.restapiforsocialmedia.followers.Followers;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
-import jakarta.validation.constraints.Size;
 import lombok.*;
 
+import javax.persistence.*;
+import javax.validation.constraints.Size;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Set;
@@ -48,7 +48,7 @@ public class UserData {
     private List<Followers> followers;
     @OneToMany(mappedBy = "from", fetch = FetchType.LAZY, cascade = CascadeType.REMOVE, orphanRemoval = true)
     private List<Followers> following;
-    // list of media content
+
     @OneToMany(mappedBy = "id", fetch = FetchType.LAZY, cascade = CascadeType.REMOVE, orphanRemoval = true)
     private List<MediaContent> personMediaContent;
     @JsonIgnore

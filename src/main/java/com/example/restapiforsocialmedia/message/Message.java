@@ -2,8 +2,9 @@ package com.example.restapiforsocialmedia.message;
 
 import com.example.restapiforsocialmedia.conversation.Conversation;
 import com.example.restapiforsocialmedia.user.UserData;
-import jakarta.persistence.*;
-import jakarta.validation.constraints.Size;
+import javax.persistence.*;
+import javax.validation.constraints.Size;
+
 import lombok.*;
 
 import java.time.LocalDate;

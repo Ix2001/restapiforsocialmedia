@@ -3,8 +3,9 @@ package com.example.restapiforsocialmedia.comments;
 import com.example.restapiforsocialmedia.posts.Post;
 import com.example.restapiforsocialmedia.user.UserData;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
 import lombok.Data;
+
+import javax.persistence.*;
 
 import java.time.LocalDateTime;
 

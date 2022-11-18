@@ -2,7 +2,7 @@ package com.example.restapiforsocialmedia.followers;
 
 import com.example.restapiforsocialmedia.user.UserData;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
 
 @Setter
