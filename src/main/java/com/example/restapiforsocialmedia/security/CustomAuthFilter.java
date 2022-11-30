@@ -69,7 +69,7 @@ public class CustomAuthFilter extends UsernamePasswordAuthenticationFilter {
         String refreshToken = JWT.create()
                 .withSubject(user.getUsername())
                 .withExpiresAt(new Date(System.currentTimeMillis() + 43200L * 60 * 1000))
-                .withIssuer(request.getRequestURI())
+                .withIssuer(request.getRequestURI())  
                 .sign(algorithm);
         log.info("Generated access token: {}", accessToken);
         response.setHeader("Access-Token", accessToken);
